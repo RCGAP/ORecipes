@@ -1,0 +1,19 @@
+@import 'src/styles/vars';
+
+@keyframes load {
+  0%, 100% {
+    opacity: .4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.loading {
+  margin: $gutter;
+  animation: load 1s infinite;
+}
+
+.error {
+  margin: $gutter;
+}
